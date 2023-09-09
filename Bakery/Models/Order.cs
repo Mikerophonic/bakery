@@ -19,4 +19,12 @@ namespace Bakery.Models
             return total;
         }
     }
+
+    public class Pastry
+    {
+        public Pastry()
+        {
+
+        }
+    }
 }
