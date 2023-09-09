@@ -45,5 +45,12 @@ namespace Bakery.Test
           Assert.AreEqual(5, newPastry.Amount);
         }
 
+        [TestMethod]
+        public void CalculatePastryPrice_ReturnsPastryPrice_Int()
+        {
+          Pastry newPastry = new Pastry(5);
+          int result = newPastry.CalculatePastryPrice(newPastry.Amount);
+          Assert.AreEqual(8, result);
+        }
     }
 }
