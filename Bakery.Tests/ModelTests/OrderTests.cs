@@ -9,10 +9,10 @@ namespace Bakery.Test
     public class BakeryTests
     {
         [TestMethod]
-        public void OrderConstructor_CreatesInstanceOfOrder_Order()
+        public void BreadConstructor_CreatesInstanceOfBread_Bread()
         {
-          Anagram newOrder = new Order();
-          Assert.AreEqual(typeof(Order), newOrder.GetType());
+          Bread newBread = new Bread();
+          Assert.AreEqual(typeof(Bread), newBread.GetType());
         }
     }
 }
