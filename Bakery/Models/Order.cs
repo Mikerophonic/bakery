@@ -28,5 +28,11 @@ namespace Bakery.Models
         {
             Amount = amount;
         }
+
+        public int CalculatePastryPrice(int amount)
+        {
+            int total = (amount - (amount / 4)) * 2;
+            return total;
+        }
     }
 }
