@@ -27,5 +27,11 @@ namespace Bakery.Test
           int result = newBread.CalculateBreadPrice(newBread.Amount);
           Assert.AreEqual(25, result);
         }
+        [TestMethod]
+        public void PastryConstructor_CreatesInstanceOfPastry_Pastry()
+        {
+          Pastry newPastry = new Pastry();
+          Assert.AreEqual(typeof(Pastry), newPastry.GetType());
+        }
     }
 }
