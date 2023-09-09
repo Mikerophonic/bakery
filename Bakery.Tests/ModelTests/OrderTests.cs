@@ -24,7 +24,7 @@ namespace Bakery.Test
         public void CalculateBreadPrice_ReturnsBreadPrice_Int()
         {
           Bread newBread = new Bread(7);
-          int result = newBread.CalculateBreadPrice();
+          int result = newBread.CalculateBreadPrice(newBread.Amount);
           Assert.AreEqual(25, result);
         }
     }

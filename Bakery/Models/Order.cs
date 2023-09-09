@@ -12,5 +12,11 @@ namespace Bakery.Models
         {
             Amount = amount;
         }
+
+        public int CalculateBreadPrice(int amount)
+        {
+            int total = (amount - (amount / 3)) * 5;
+            return total;
+        }
     }
 }
