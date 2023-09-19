@@ -13,7 +13,26 @@
 
 ## Description
 
-This console application was created as my first independent project in the C# / .NET course at Epicodus. It demonstrates my understanding of Test Driven Development in C#. The console application must include the following functionality:
+This console application was created as my first independent project in the C# / .NET course at Epicodus. It demonstrates my understanding of Test Driven Development in C#. 
+
+
+## Setup/Installation Requirements
+
+
+* Clone this repository to your local machine: $ git clone https://github.com/Mikerophonic/bakery.git
+* Navigate to Bakery from root directory with cd Bakery
+* Type 'dotnet run' in the terminal to start program.
+* To run tests, navigate to Bakery.Tests from root directory with cd Bakery.Tests
+* Type 'dotnet test' in the terminal.
+
+
+## Known Bugs
+
+No known bugs.
+
+## Assignment requirements
+
+The console application must include the following functionality:
 * There should be two classes: one for Bread and one for Pastry.
 * When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry.
 * A user should be able to specify how many loaves of Bread and how many Pastrys they'd like.
@@ -31,19 +50,6 @@ Your code will be reviewed for the following objectives:
 * Models are thoroughly tested.
 * Project is in a polished, portfolio-quality state.
 * The prompt’s required functionality and baseline project requirements are in place by the deadline.
-
-
-## Setup/Installation Requirements
-
-
-* Clone this repository to your local machine: $ git clone https://github.com/Mikerophonic/bakery.git
-* Navigate to directory with Program.cs: Bakery
-* Type 'dotnet run' in the terminal to start program.
-
-
-## Known Bugs
-
-No known bugs.
 
 ## License
 MIT
